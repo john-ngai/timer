@@ -11,9 +11,6 @@
 const stdin = process.stdin;
 stdin.setRawMode(true);
 stdin.setEncoding('utf8');
-const readline = require('readline');
-const { stdin: input, stdout: output } = require('process');
-const rl = readline.createInterface({ input, output });
 
 // SOLUTION:
 stdin.on('data', (key) => {
